@@ -8,14 +8,21 @@ Current simulators are trained as an ensemble, where each model simulates a sing
 
 Partnering with Princeton University, the team at Google Brain aims to grow the community around machine learning for mechanical ventilation control. They believe that neural networks and deep learning can better generalize across lungs with varying characteristics than the current industry standard of PID controllers.
 
-In this competition, you’ll simulate a ventilator connected to a sedated patient's lung. The best submissions will take lung attributes compliance and resistance into account.
-
 If successful, you'll help overcome the cost barrier of developing new methods for controlling mechanical ventilators. This will pave the way for algorithms that adapt to patients and reduce the burden on clinicians during these novel times and beyond. As a result, ventilator treatments may become more widely available to help patients breathe.
 
 The competition will be scored as the mean absolute error between the predicted and actual pressures during the inspiratory phase of each breath. The expiratory phase is not scored. The score is given by:
 
+![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/images/img1.JPG)
 
-where  is the vector of predicted pressure and  is the vector of actual pressures across all breaths in the test set.
+where X is the vector of predicted pressure and Y is the vector of actual pressures across all breaths in the test set.
 
 Submission File
 For each id in the test set, you must predict a value for the pressure variable. The file should contain a header and have the following format:
+
+![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/images/img2.JPG)
+
+## Outputs :
+
+![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/outputs/output4.png)
+
+![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/outputs/output6.png)
