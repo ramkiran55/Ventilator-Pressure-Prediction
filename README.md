@@ -1,4 +1,4 @@
-"# Ventilator-Pressure-Prediction" 
+# Ventilator-Pressure-Prediction
 Google Brain - Ventilator Pressure Prediction
 Simulate a ventilator connected to a sedated patient's lung
 
@@ -12,3 +12,10 @@ In this competition, you’ll simulate a ventilator connected to a sedated patie
 
 If successful, you'll help overcome the cost barrier of developing new methods for controlling mechanical ventilators. This will pave the way for algorithms that adapt to patients and reduce the burden on clinicians during these novel times and beyond. As a result, ventilator treatments may become more widely available to help patients breathe.
 
+The competition will be scored as the mean absolute error between the predicted and actual pressures during the inspiratory phase of each breath. The expiratory phase is not scored. The score is given by:
+
+
+where  is the vector of predicted pressure and  is the vector of actual pressures across all breaths in the test set.
+
+Submission File
+For each id in the test set, you must predict a value for the pressure variable. The file should contain a header and have the following format:
