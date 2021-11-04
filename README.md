@@ -29,7 +29,7 @@ time_step - the actual time stamp.
 * u_out - the control input for the exploratory solenoid valve. Either 0 or 1.
 * pressure - the airway pressure measured in the respiratory circuit, measured in cmH2O.
 
-If successful, you'll help overcome the cost barrier of developing new methods for controlling mechanical ventilators. This will pave the way for algorithms that adapt to patients and reduce the burden on clinicians during these novel times and beyond. As a result, ventilator treatments may become more widely available to help patients breathe.
+. This will pave the way for algorithms that adapt to patients and reduce the burden on clinicians during these novel times and beyond. As a result, ventilator treatments may become more widely available to help patients breathe.
 
 The competition will be scored as the mean absolute error between the predicted and actual pressures during the inspiratory phase of each breath. The expiratory phase is not scored. The score is given by:
 
