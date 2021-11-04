@@ -27,7 +27,7 @@ Each time series represents an approximately 3-second breath. The files are orga
 time_step - the actual time stamp.
 * u_in - the control input for the inspiratory solenoid valve. Ranges from 0 to 100.
 * u_out - the control input for the exploratory solenoid valve. Either 0 or 1.
-pressure - the airway pressure measured in the respiratory circuit, measured in cmH2O.
+* pressure - the airway pressure measured in the respiratory circuit, measured in cmH2O.
 
 If successful, you'll help overcome the cost barrier of developing new methods for controlling mechanical ventilators. This will pave the way for algorithms that adapt to patients and reduce the burden on clinicians during these novel times and beyond. As a result, ventilator treatments may become more widely available to help patients breathe.
 
