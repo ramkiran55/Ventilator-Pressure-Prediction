@@ -48,4 +48,3 @@ For each id in the test set, you must predict a value for the pressure variable.
 | Linear Regression | LightGBM |
 | :---------------: | :-------: |
 |![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/outputs/Linear_Regression.png)|![](https://github.com/ramkiran55/Ventilator-Pressure-Prediction/blob/main/outputs/LightGBM.png)|
-
